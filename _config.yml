@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://qwtel.com
+url:                   https://iomes2018.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -28,9 +28,7 @@ title:
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  2018 Workshop on Intelligent Operations of the Energy Sector held in conjunction with GECCO 2018, Kyoto, Japan; July 10-15, 2018.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -40,7 +38,7 @@ tagline:               >
 keywords:              [evolutionary computation, energy production, petroleum industry, renewable energy, evolutionary multi-objective optimization]
 
 # Used by jekyll-seo-tag.
-logo:                  /assets/icon/acm.jpg
+# logo:                  /assets/icon/acm.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
