@@ -1,0 +1,44 @@
+---
+layout: page
+title: Welcome to IOMES 2018
+---
+
+{% capture foo %}
+
+It is our pleasure to invite you to the **2018 Workshop in Intelligent Operations in the Energy Sector (IOMES 2018)** to be held in conjunction with the [**2018 Genetic and Evolutionary Computation Conference**](http://gecco-2018.sigevo.org**), in **Kyoto**, **Japan**, on **July 10-15, 2018**.
+
+The energy sector spans from traditional carbon-based non-renewable sources such as oil and gas through nuclear to modern renewables including wind, tide, and solar energy. All of these technologies are resource-intensive: they require massive investment in the construction of expensive assets and their maintenance over several decades.
+
+Recent advances in sensors, data management, and cloud computing are transforming the environment for operations managers in these industries. Large, rich datasets can be readily assembled from diverse sources with substantial computational power available for analytics.
+
+This creates a fertile environment for the application of computational intelligence. Prediction, classification and optimisation algorithms can support decision-makers in the management of highly expensive resources, where even small percentage cost reductions can amount to millions of dollars. In fact, the application of computational intelligence can be transformative, leading to large-scale efficiency and major changes in operations.
+
+
+<table width='100%' style="float:center; margin:1px auto; border:none; padding: 2px;">
+  <tr>
+    <td width='33%' align='center' style="margin:1px auto; padding: 2px;">
+      <small>Association for Computing Machinery</small>
+    </td>
+    <td width='33%' align='center' style="margin:1px auto; padding: 2px;">
+      <small>ACM Special Interest Group on Genetic and Evolutionary Computation</small>
+    </td>
+    <td width='33%' align='center' style="margin:1px auto; padding: 2px;">
+      <small>2018 Genetic and Evolutionary Computation Conference</small>
+    </td>
+  </tr>
+  <tr>
+    <td align='center' style="margin:1px auto; padding: 0px;">
+      <img src='https://upload.wikimedia.org/wikipedia/en/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg' width='29%'/>
+    </td>
+    <td align='center' style="margin:1px auto;  padding: 0px;">
+      <img src='http://sig.sigevo.org/index.html/tiki-download_file.php?fileId=6&display' width='47%'/>
+    </td>
+    <td align='center' style="margin:1px auto;  padding: 0px;">
+    <img align='center' src='https://ssl.linklings.net/conferences/gecco/logo_gecco2018.jpg' width='47%'/>
+    </td>
+  </tr>
+</table>
+
+{% endcapture %}
+
+{{ foo  | markdownify | smartify }}
