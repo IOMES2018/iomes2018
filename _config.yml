@@ -69,7 +69,7 @@ paginate_path:         /page-:num/
 
 accent_image: /assets/img/y.jpg
 
-accent_color:          '#202020' # '#4fb1ba'
+accent_color:          '#292929' # '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
@@ -184,12 +184,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
 
+
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
 remote_theme: qwtel/hydejack@gem-7.5.0
 
+# pdf:
+#   cache: false | directory | default: .asset-cache
+#   page_size: A4, Letter, etc. | default: A4
+#   layout: layout | default: pdf
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
