@@ -42,9 +42,9 @@ keywords:              [evolutionary computation, energy production, petroleum i
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
-author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+#author:
+#  name:                <firstname> <lastname>
+#  email:               <mail@domain.tld>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -55,8 +55,8 @@ copyright:             #© 2017. All rights reserved.
 permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
-paginate_path:         /page-:num/
+# paginate:              5
+# paginate_path:         /page-:num/
 
 
 # Customizaton
@@ -170,17 +170,17 @@ exclude:
 # ========================================================================================
 
 plugins:
-  - jekyll-avatar
+#  - jekyll-avatar
   - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-optional-front-matter
-  - jekyll-paginate
+#  - jekyll-feed
+#  - jekyll-gist
+#  - jekyll-optional-front-matter
+#  - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
 #   - jekyll-relative-links
   - jekyll-remote-theme
-  - jekyll-seo-tag
+#  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
 
