@@ -69,7 +69,7 @@ permalink:             pretty
 
 accent_image: /assets/img/y.jpg
 
-accent_color:          '#292929' # '#4fb1ba'
+accent_color:          '#314159' # '#292929' # '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
@@ -112,7 +112,7 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
