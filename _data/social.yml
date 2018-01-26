@@ -11,16 +11,16 @@
     name: Google
     icon: icon-google
   google-plus:
-    name: Google+
+    name: Share on Google+
     icon: icon-google-plus
-    prepend: 'https://plus.google.com/'
+#     prepend: 'https://plus.google.com/'
   google-drive:
     name: Google Drive
     icon: icon-google-drive
   facebook:
-    name: Facebook
+    name: Share on Facebook
     icon: icon-facebook
-    prepend: 'https://facebook.com/'
+#    prepend: 'https://facebook.com/'
   instagram:
     name: Instagram
     icon: icon-instagram
@@ -36,9 +36,9 @@
     name: Telegram
     icon: icon-telegram
   twitter:
-    name: Twitter
+    name: Share on Twitter
     icon: icon-twitter
-    prepend: 'https://twitter.com/'
+#    prepend: 'https://twitter.com/'
   vine:
     name: Vine
     icon: icon-vine
